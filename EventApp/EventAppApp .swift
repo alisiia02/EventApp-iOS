@@ -2,7 +2,7 @@
 //  EventAppApp.swift
 //  EventApp
 //
-//  Created by stud on 25/11/2025.
+//  Created by stud on 18/11/2025.
 //
 
 import SwiftUI
@@ -12,8 +12,6 @@ struct EventAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-            
         }
-                 
     }
 }
