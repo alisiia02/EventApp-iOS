@@ -13,7 +13,9 @@ struct MainApp: View {
     var body some View {
         ZStack {
             switch selectedTab {
-                
+            case 0: ChatsView();
+            case 1:
+            
             }
         }
     }
