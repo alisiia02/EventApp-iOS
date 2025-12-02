@@ -14,5 +14,6 @@ struct EventAppApp: App {
             ContentView()
             
         }
+                 
     }
 }
