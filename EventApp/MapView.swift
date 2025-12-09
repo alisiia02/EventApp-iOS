@@ -15,7 +15,7 @@ struct Event: Identifiable {
     let description: String
 }
 
-struct EventMapView: View {
+struct MapView: View {
     @State private var cameraPosition: MapCameraPosition = .region(
         MKCoordinateRegion(
             center: CLLocationCoordinate2D(latitude: 51.1079, longitude: 17.0385),
@@ -134,5 +134,5 @@ struct RoundedCorner: Shape {
 }
 
 #Preview {
-    EventMapView()
+    MapView()
 }
